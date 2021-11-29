@@ -5,7 +5,16 @@ import requests from "./request";
 function App() {
   return (
     <div className="App">
-      <Row title="Netflix Orginals" fetchUrl={requests.fetchNetflixOrginals} />
+      {/* navbar */}
+
+      {/* banner */}
+
+      {/* movie list */}
+      <Row
+        title="Netflix Orginals"
+        fetchUrl={requests.fetchNetflixOrginals}
+        isLargeRow={true}
+      />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
