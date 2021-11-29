@@ -1,6 +1,7 @@
 import "./App.css";
 import Row from "./Row";
 import requests from "./request";
+import Banner from "./Banner";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       {/* navbar */}
 
       {/* banner */}
-
+      <Banner />
       {/* movie list */}
       <Row
         title="Netflix Orginals"
